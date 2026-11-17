@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 基于 Cesium 的黄海海底地形三维可视化系统
 
 ## 项目简介
@@ -21,7 +21,7 @@
 1. 请先使用 CesiumLab 将 `data/processed/yellow_sea_fixed.tif` 切为 `.terrain` 瓦片，放置在 `data/terrain_tiles/` 下。
 2. 下载 Cesium 官方库，放置在 `frontend/libs/Cesium/` 下。
 3. 运行 `python backend/server.py`，浏览器访问 `http://127.0.0.1:8001/`。
-=======
+
 # Cesium-3D-GIS
 A 3D Earth demo built with Vue3 and Cesium.
->>>>>>> b746ba8f96dbcef728a8d75febee16bf67fc6741
+
