@@ -1,0 +1,30 @@
+/* ============================================================
+   黄海海底地形三维可视化系统 —— 全局样式
+   只做一件事：让三维容器铺满整个浏览器窗口，去掉默认留白和滚动条
+   ============================================================ */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0b1723;
+  font-family: "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+}
+
+#cesiumContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Cesium 画布铺满父容器 */
+#cesiumContainer canvas {
+  display: block;
+}

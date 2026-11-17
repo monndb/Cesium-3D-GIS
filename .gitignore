@@ -1,0 +1,25 @@
+# 忽略超大的地形切片数据
+data/terrain_tiles/
+data/terrain_tiles_v2/
+*.terrain
+.tmp/
+
+# 忽略原始和处理后的 TIF 数据（如果有需要，可以留着小体积的 tif，大的千万别传）
+*.tif
+*.nc
+*.tiff
+
+# 忽略 Cesium 库文件（让用户自己去下）
+frontend/libs/Cesium/
+
+# 忽略 Python 虚拟环境
+venv/
+__pycache__/
+*.pyc
+
+# 忽略系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
